@@ -1,0 +1,132 @@
+:root {
+    --primercolor: hsl(225, 100%, 94%);
+    --segundocolor: hsl(245, 75%, 52%);
+    --palblue: hsl(225, 100%, 98%);
+    --darkblue: hsl(223, 47%, 23%);
+    --desaturedblue: hsl(224, 23%, 55%);
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+main {
+    background-image: url(images/pattern-background-desktop.svg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: var(--palblue)
+}
+.hero {
+    height: 100vh;
+}
+
+.card {
+    max-width: 450px;
+    background-color: white;
+    border: 0;
+    box-shadow: 0 14px 15px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0.8rem
+}
+
+.card-body {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.card-img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.card-title{
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1.7em;
+    font-weight: 900;
+    color: var(--darkblue);
+    margin-bottom: 25px
+}
+
+.card-text  {
+    font-family: 'Red Hat Display', sans-serif;
+    color: var(--desaturedblue);
+}
+
+.card-suscription {
+    display: flex;
+    align-items: center;
+    background-color: var(--palblue);
+    padding: 0.5rem;
+    border-radius: 0.6rem;
+    margin-bottom: 25px;
+}
+
+.card-logo {
+    margin-right: 20px;
+}
+
+
+.type-plan {
+    height: 100%;
+}
+
+.type-plan h3 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: .3rem;
+
+}
+
+.type-plan .year-plan {
+    color: var(--desaturedblue);
+}
+
+.card-suscription .price-plan {
+    display: flex;
+    position: relative;
+    color: var(--desaturedblue);
+}
+
+
+.link {
+    margin-left: auto;
+    margin-right: 5px;
+}
+
+.sub-link {
+    color: var(--segundocolor);
+    font-weight: bold;
+    font-size: 15px;
+}
+
+
+.button-proceed {
+    font-family: 'Red Hat Display', sans-serif;
+    width: 100%;
+    background-color: var(--segundocolor);
+    padding: .8rem;
+    border-radius: 0.6rem;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 14px 15px 1px rgba(0, 0, 0.8, 0.2);
+    margin-bottom: 15px;
+}
+
+.btn-cancel {
+    width: 100%;
+    color: var(--desaturedblue);
+    font-weight: bold;
+
+}
+
+
+@media screen  and (max-width: 500px){
+    .card-body {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
