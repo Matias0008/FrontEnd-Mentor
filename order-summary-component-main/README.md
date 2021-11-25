@@ -1,4 +1,5 @@
 # Frontend Mentor - Order summary card
+Pagina para visualizar el resultado
 # https://mdordersummary.netlify.app/
 
 ![Design preview for the Order summary card coding challenge](./design/desktop-preview.jpg)
